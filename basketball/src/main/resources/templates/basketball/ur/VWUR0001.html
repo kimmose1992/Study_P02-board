@@ -3,6 +3,14 @@
 <head>
 	<th:block th:replace="fragments/cm/header :: fragment-header" />
     <script type="text/javascript">
+		var fnObj = {
+			btns: {
+    			// 회원가입 페이지 이동
+    			moveSignUp: function(){
+					location.href = "/ur/signUp";    				
+    			}
+			}
+		}
    </script>
 </head>
 <body>
@@ -43,7 +51,7 @@
 									</div>
 		            			</div>
 		          			</form>
-		          			<p class="text-center">Not a member? <a data-toggle="tab" href="#signup">Sign Up</a></p>
+		          			<p class="text-center">Not a member? <a data-toggle="tab" href="#" onclick="fnObj.btns.moveSignUp()">Sign Up</a></p>
 		        		</div>
 		      		</div>
 				</div>

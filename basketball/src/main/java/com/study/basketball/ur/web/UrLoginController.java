@@ -24,4 +24,16 @@ public class UrLoginController {
 		mav.setViewName("basketball/ur/VWUR0001");
 		return mav;
 	}
+	
+	/**
+	 * @title   : 회원가입 화면
+	 * @method  : signUp()
+	 * @comment : 회원가입 화면으로 이동
+	 * @param   : N/A
+	 */
+	@RequestMapping("signUp")
+	public ModelAndView signUp(ModelAndView mav) throws Exception {
+		mav.setViewName("basketball/ur/VWUR0002");
+		return mav;
+	}
 }
