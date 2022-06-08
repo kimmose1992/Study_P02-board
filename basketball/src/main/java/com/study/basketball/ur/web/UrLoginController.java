@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * @title	: È¸¿ø°ü¸® Controller Å¬·¡½º	  
- * @author	: ±è¸ğ¼¼
+ * @title	: [ì‚¬ìš©ì] ë¡œê·¸ì¸ Controller í´ë˜ìŠ¤	  
+ * @author	: ê¹€ëª¨ì„¸
  * @create	: 2022.06.04
  */
 @Controller
@@ -14,9 +14,9 @@ import org.springframework.web.servlet.ModelAndView;
 public class UrLoginController {
 
 	/**
-	 * @title   : ·Î±×ÀÎ È­¸é
+	 * @title   : ë¡œê·¸ì¸ í™”ë©´
 	 * @method  : login()
-	 * @comment : ·Î±×ÀÎ È­¸éÀ¸·Î ÀÌµ¿
+	 * @comment : ë¡œê·¸ì¸ í™”ë©´ìœ¼ë¡œ ì´ë™
 	 * @param   : N/A
 	 */
 	@RequestMapping("login")
@@ -26,9 +26,9 @@ public class UrLoginController {
 	}
 	
 	/**
-	 * @title   : È¸¿ø°¡ÀÔ È­¸é
+	 * @title   : íšŒì›ê°€ì… í™”ë©´
 	 * @method  : signUp()
-	 * @comment : È¸¿ø°¡ÀÔ È­¸éÀ¸·Î ÀÌµ¿
+	 * @comment : íšŒì›ê°€ì… í™”ë©´ìœ¼ë¡œ ì´ë™
 	 * @param   : N/A
 	 */
 	@RequestMapping("signUp")

@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * @title	: [°øÅë] ¸ŞÀÎ Controller Å¬·¡½º	  
- * @author	: ±è¸ğ¼¼
+ * @title	: [ê³µí†µ] ë©”ì¸ Controller í´ë˜ìŠ¤	  
+ * @author	: ê¹€ëª¨ì„¸
  * @create	: 2022.06.04
  */
 @Controller
@@ -21,9 +21,9 @@ public class CmMainController {
 	}
 	
 	/**
-	 * @title   : ¸ŞÀÎ È­¸é
+	 * @title   : ë©”ì¸ í™”ë©´
 	 * @method  : main()
-	 * @comment : ¸ŞÀÎ È­¸éÀ¸·Î ÀÌµ¿
+	 * @comment : ë©”ì¸ í™”ë©´ìœ¼ë¡œ ì´ë™
 	 * @param   : N/A
 	 */
 	@RequestMapping("main")

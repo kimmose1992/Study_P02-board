@@ -10,8 +10,8 @@ import org.springframework.security.crypto.factory.PasswordEncoderFactories;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
- * @title	: Spring Security ¼³Á¤ Å¬·¡½º	  
- * @author	: ±è¸ğ¼¼
+ * @title	: Spring Security ì„¤ì • í´ë˜ìŠ¤
+ * @author	: ê¹€ëª¨ì„¸
  * @create	: 2022.06.06
  */
 @SuppressWarnings("deprecation")
