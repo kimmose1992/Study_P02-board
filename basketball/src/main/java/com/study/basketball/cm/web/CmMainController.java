@@ -4,10 +4,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
- * @title	: [Í≥µÌÜµ] Î©îÏù∏ Controller ÌÅ¥ÎûòÏä§	  
- * @author	: ÍπÄÎ™®ÏÑ∏
+ * @title	: [∞¯≈Î] ∏ﬁ¿Œ Controller ≈¨∑°Ω∫	  
+ * @author	: ±Ë∏ºº
  * @create	: 2022.06.04
  */
 @Controller
@@ -18,4 +19,16 @@ public class CmMainController {
 	public String main(Model model) {
 		return "redirect:/ur/login";
 	}
+	
+	/**
+	 * @title   : ∏ﬁ¿Œ »≠∏È
+	 * @method  : main()
+	 * @comment : ∏ﬁ¿Œ »≠∏È¿∏∑Œ ¿Ãµø
+	 * @param   : N/A
+	 */
+	@RequestMapping("main")
+	public ModelAndView main(ModelAndView mav) throws Exception {
+		mav.setViewName("basketball/cm/VWCM0001");
+		return mav;
+	}	
 }
