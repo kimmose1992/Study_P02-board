@@ -1,15 +1,15 @@
 package com.study.board.ur.web;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * @title	: 회원관리 Controller 클래스	  
+ * @title	: [사용자] 로그인 Controller 클래스	  
  * @author	: 김모세
  * @create	: 2022.06.08
  */
-@Controller
+@RestController
 @RequestMapping("/ur/")
 public class UrLoginController {
 
