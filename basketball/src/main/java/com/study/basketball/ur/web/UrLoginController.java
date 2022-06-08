@@ -1,7 +1,7 @@
 package com.study.basketball.ur.web;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
  * @author	: 김모세
  * @create	: 2022.06.04
  */
-@Controller
+@RestController
 @RequestMapping("/ur/")
 public class UrLoginController {
 
