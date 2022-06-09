@@ -7,7 +7,11 @@
 			btns: {
     			// 회원가입 페이지 이동
     			moveSignUp: function(){
-					location.href = "/ur/signUp";    				
+					location.href = "/ur/signUp";
+    			},
+    			// 게시판 목록 페이지 이동
+    			moveBoardList: function(){
+    				location.href = "/bd/boardList";
     			}
 			}
 		}
@@ -52,6 +56,7 @@
 		            			</div>
 		          			</form>
 		          			<p class="text-center">Not a member? <a data-toggle="tab" href="#" onclick="fnObj.btns.moveSignUp()">Sign Up</a></p>
+		          			<p class="text-center">Move Board <a data-toggle="tab" href="#" onclick="fnObj.btns.moveBoardList()">BoardList</a></p>
 		        		</div>
 		      		</div>
 				</div>

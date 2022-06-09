@@ -11,5 +11,5 @@ import com.study.board.bd.vo.BdNoticeVO;
  */
 public interface BdNoticeService {
 
-	List<BdNoticeVO> boardList() throws Exception;
+	List<BdNoticeVO> boardList(BdNoticeVO param) throws Exception;
 }
