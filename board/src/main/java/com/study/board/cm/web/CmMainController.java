@@ -16,6 +16,6 @@ public class CmMainController {
 
 	@GetMapping("/")
 	public String main(Model model) {
-		return "redirect:/ur/login";
+		return "redirect:/bd/boardList";
 	}
 }
